@@ -1,75 +1,78 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="DESKTOP-UIOQLRT" name="br.com.caelum.agenda.modelo.ContatoTest" skipped="0" tests="1" time="0.005" timestamp="2017-01-31T21:37:58">
+<testsuite errors="0" failures="0" hostname="DESKTOP-UIOQLRT" name="br.com.caelum.agenda.modelo.ContatoTest" skipped="0" tests="1" time="0.004" timestamp="2017-02-01T23:21:15">
   <properties>
-    <property name="ant.project.invoked-targets" value="rodar-testes" />
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_112\jre\bin" />
-    <property name="java.vm.version" value="25.112-b15" />
-    <property name="ant.library.dir" value="C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
-    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
-    <property name="ant.java.version" value="1.8" />
-    <property name="java.vm.vendor" value="Oracle Corporation" />
-    <property name="java.vendor.url" value="http://java.oracle.com/" />
-    <property name="path.separator" value=";" />
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
-    <property name="file.encoding.pkg" value="sun.io" />
-    <property name="user.script" value="" />
-    <property name="user.country" value="BR" />
-    <property name="sun.java.launcher" value="SUN_STANDARD" />
-    <property name="sun.os.patch.level" value="" />
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
-    <property name="user.dir" value="C:\git\Estudando.ANT.03.Path.Properties" />
-    <property name="java.runtime.version" value="1.8.0_112-b15" />
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
-    <property name="eclipse.pdebuild.scripts" value="/C:/desenv/spring-tool-suite/sts-bundle/sts-3.8.2.RELEASE/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/scripts/" />
-    <property name="basedir" value="C:\git\Estudando.ANT.03.Path.Properties" />
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\endorsed" />
-    <property name="os.arch" value="amd64" />
-    <property name="ant.project.default-target" value="rodar-testes" />
-    <property name="java.io.tmpdir" value="C:\Users\julia\AppData\Local\Temp\" />
-    <property name="ant.core.lib" value="C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
-    <property name="line.separator" value="&#xd;&#xa;" />
-    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
-    <property name="user.variant" value="" />
-    <property name="os.name" value="Windows 10" />
-    <property name="ant.home" value="C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327" />
-    <property name="eclipse.pdebuild.templates" value="/C:/desenv/spring-tool-suite/sts-bundle/sts-3.8.2.RELEASE/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/templates/" />
-    <property name="ant.project.name" value="agenda" />
-    <property name="sun.jnu.encoding" value="Cp1252" />
-    <property name="java.library.path" value="C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_112/bin/server;C:/Program Files/Java/jre1.8.0_112/bin;C:/Program Files/Java/jre1.8.0_112/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\julia\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\julia\AppData\Roaming\npm;C:\Users\julia\AppData\Local\.meteor\;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE;;.;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\configuration\org.eclipse.osgi\805\0\.cp" />
-    <property name="eclipse.pdebuild.home" value="/C:/desenv/spring-tool-suite/sts-bundle/sts-3.8.2.RELEASE/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/./" />
-    <property name="java.class.version" value="52.0" />
-    <property name="java.specification.name" value="Java Platform API Specification" />
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
-    <property name="os.version" value="10.0" />
-    <property name="ant.file" value="C:\git\Estudando.ANT.03.Path.Properties\build.xml" />
-    <property name="user.home" value="C:\Users\julia" />
-    <property name="user.timezone" value="" />
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
-    <property name="java.specification.version" value="1.8" />
-    <property name="file.encoding" value="Cp1252" />
-    <property name="user.name" value="juliano" />
-    <property name="java.class.path" value="C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-antlr.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-bcel.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-bsf.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-log4j.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-oro.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-regexp.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-resolver.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-xalan2.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-commons-logging.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-commons-net.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jai.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-javamail.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jdepend.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jmf.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jsch.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-netrexx.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-swing.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-testutil.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\configuration\org.eclipse.osgi\109\0\.cp\lib\antdebug.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\configuration\org.eclipse.osgi\109\0\.cp\lib\remote.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\configuration\org.eclipse.osgi\110\0\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.8.0_112\lib\tools.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar" />
-    <property name="java.vm.specification.version" value="1.8" />
-    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1485898676254 -Declipse.connect.port=56427 -Declipse.pdebuild.home=/C:/desenv/spring-tool-suite/sts-bundle/sts-3.8.2.RELEASE/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/./ -Declipse.pdebuild.scripts=/C:/desenv/spring-tool-suite/sts-bundle/sts-3.8.2.RELEASE/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/scripts/ -Declipse.pdebuild.templates=/C:/desenv/spring-tool-suite/sts-bundle/sts-3.8.2.RELEASE/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/templates/ -Dant.home=C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\git\Estudando.ANT.03.Path.Properties\build.xml" />
-    <property name="sun.arch.data.model" value="64" />
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_112\jre" />
-    <property name="java.specification.vendor" value="Oracle Corporation" />
-    <property name="user.language" value="pt" />
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
-    <property name="java.vm.info" value="mixed mode" />
-    <property name="java.version" value="1.8.0_112" />
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
-    <property name="ant.file.type.agenda" value="file" />
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_112\jre\classes" />
     <property name="java.vendor" value="Oracle Corporation" />
-    <property name="file.separator" value="\" />
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
-    <property name="sun.cpu.endian" value="little" />
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/C:/desenv/spring-tool-suite/sts-bundle/sts-3.8.2.RELEASE/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/templates/" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_112\jre\classes" />
     <property name="sun.desktop" value="windows" />
-    <property name="ant.file.agenda" value="C:\git\Estudando.ANT.03.Path.Properties\build.xml" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327" />
+    <property name="java.runtime.version" value="1.8.0_112-b15" />
+    <property name="user.name" value="juliano" />
+    <property name="build.dir" value="build" />
+    <property name="user.language" value="pt" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_112\jre\bin" />
+    <property name="ant.project.default-target" value="rodar-testes" />
+    <property name="ant.project.name" value="agenda" />
+    <property name="java.version" value="1.8.0_112" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\endorsed" />
     <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="classes.dir" value="classes" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="BR" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_112\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\git\Estudando.ANT.03.Path.Properties\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.112-b15" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="/C:/desenv/spring-tool-suite/sts-bundle/sts-3.8.2.RELEASE/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/scripts/" />
+    <property name="user.home" value="C:\Users\julia" />
+    <property name="ant.file.agenda" value="C:\git\Estudando.ANT.03.Path.Properties\build.xml" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="classes.teste.dir" value="classes-teste" />
+    <property name="java.library.path" value="C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_112/bin/server;C:/Program Files/Java/jre1.8.0_112/bin;C:/Program Files/Java/jre1.8.0_112/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\julia\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\julia\AppData\Roaming\npm;C:\Users\julia\AppData\Local\.meteor\;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE;;.;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\configuration\org.eclipse.osgi\805\0\.cp" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1485991274145 -Declipse.connect.port=58127 -Declipse.pdebuild.home=/C:/desenv/spring-tool-suite/sts-bundle/sts-3.8.2.RELEASE/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/./ -Declipse.pdebuild.scripts=/C:/desenv/spring-tool-suite/sts-bundle/sts-3.8.2.RELEASE/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/scripts/ -Declipse.pdebuild.templates=/C:/desenv/spring-tool-suite/sts-bundle/sts-3.8.2.RELEASE/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/templates/ -Dant.home=C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\git\Estudando.ANT.03.Path.Properties\build.xml" />
+    <property name="java.class.path" value="C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-antlr.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-bcel.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-bsf.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-log4j.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-oro.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-regexp.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-resolver.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-xalan2.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-commons-logging.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-commons-net.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jai.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-javamail.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jdepend.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jmf.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jsch.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-netrexx.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-swing.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-testutil.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\configuration\org.eclipse.osgi\109\0\.cp\lib\antdebug.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\configuration\org.eclipse.osgi\109\0\.cp\lib\remote.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\configuration\org.eclipse.osgi\110\0\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.8.0_112\lib\tools.jar;C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.eclipse.swt.win32.win32.x86_64_3.105.1.v20160907-0248.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="eclipse.pdebuild.home" value="/C:/desenv/spring-tool-suite/sts-bundle/sts-3.8.2.RELEASE/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/./" />
+    <property name="java.io.tmpdir" value="C:\Users\julia\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\git\Estudando.ANT.03.Path.Properties" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="C:\git\Estudando.ANT.03.Path.Properties" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.file.type.agenda" value="file" />
+    <property name="ant.core.lib" value="C:\desenv\spring-tool-suite\sts-bundle\sts-3.8.2.RELEASE\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="rodar-testes" />
   </properties>
   <testcase classname="br.com.caelum.agenda.modelo.ContatoTest" name="pegaDadosDoOutroContato" time="0.0" />
   <system-out><![CDATA[]]></system-out>
